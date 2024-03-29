@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Features
 
-** Featching Data From API endpoints
+**Featching Data From API endpoints
 ** Search in Shared Services
 ** Loading spinner
 ** Using rxjs library
