@@ -1,0 +1,27 @@
+<section class="container my-5">
+  <div class="card" style="max-width: 80%" *ngIf="userOfId">
+    <div class="row g-0">
+      <div class="col-md-5">
+        <img
+          [src]="userOfId.data.avatar"
+          class="img-fluid rounded-start"
+          alt="User Avatar"
+          height="auto"
+        />
+      </div>
+      <div class="col-md-7">
+        <div class="card-body">
+          <h5 class="card-title">
+            {{ userOfId.data.first_name + " " + userOfId.data.last_name }}
+          </h5>
+          <p class="card-text">{{ userOfId.data.email }}</p>
+          <p class="card-text">
+            <button class="btn btn-outline-success" (click)="returnBack()">
+              Return Back
+            </button>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

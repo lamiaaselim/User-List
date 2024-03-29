@@ -1,0 +1,14 @@
+table {
+  width: 80%;
+  margin: auto;
+}
+.avatar-img {
+  border-radius: 50%; /* Makes the image circular */
+  width: 50px; /* Adjust the width and height as needed */
+  height: 50px;
+  cursor: pointer; /* Changes cursor to pointer on hover */
+}
+
+.avatar-img:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
