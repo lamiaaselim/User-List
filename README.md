@@ -4,12 +4,12 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Features
 
-**Featching Data From API endpoints
-** Search in Shared Services
-** Loading spinner
-** Using rxjs library
-** cache HTTP requests with a service worker
-*One of Angular's slick features is the ability to turn your Angular project into a PWA (Progress Web App) with one command.
+- Featching Data From API endpoints
+- Search in Shared Services
+- Loading spinner
+- Using rxjs library
+- cache HTTP requests with a service worker
+- One of Angular's slick features is the ability to turn your Angular project into a PWA (Progress Web App) with one command.
 
 ## Development server
 
